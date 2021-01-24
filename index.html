@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css" />
-  <title>Tita | Mario Crespo Reyes</title>
+  <title>Sneak</title>
 </head>
 <body>
   <header>
@@ -51,10 +51,15 @@
             <li><a>App</a></li>
           </ul>
         </nav>
-        <div class="grid-container">
-
+        <div class="grid-container" >
+          <div class="grid" id="grid">
+            <div class="section-container image">
+              <h3 class="title-section">CREATIVE LOGO</h3>
+              <p class="subtitle-section">Branding</p>
+            </div>
+          </div>
         </div>
-        <button class="show-more">Show Me More</button>
+        <button onclick="getData()" class="show-more">Show Me More</button>
       </section>
     </main>
     <footer>
@@ -68,6 +73,18 @@
       </div>
     </footer>
   </header>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script src="./index.js"></script>
+  <script>
+    let elem = document.getElementById('grid');
+    imagesLoaded( elem, () => {
+      let msnry = new Masonry( render, {
+        itemSelector: '.image',
+        columnWidth: '300px'
+        });
+      }) 
+    ) 
+  </script>
 </body>
 </html>

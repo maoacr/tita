@@ -43,9 +43,13 @@
   border: none;
   padding: 1rem 3rem;
   color: white;
-  background-color: #ff5672;
+  background-color: #fc758c;
   font-size: 1.3rem;
   letter-spacing: 2px;
+  cursor: pointer;
+  &:hover {
+    background-color: #ff5672;
+  }
 }
 footer{
 

@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "33081",
 "files": {
+	"/images.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/images-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/images/Dribble.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -159,6 +167,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/styles/_grid-container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styles/_grid-container.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

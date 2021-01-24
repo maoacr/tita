@@ -1,0 +1,42 @@
+.grid-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 20px;
+  justify-content: center;
+  grid-template-rows: masonry;
+}
+.image {
+  width: 300px;
+  border-radius: 15px;
+  cursor: zoom-in;
+  &:hover {
+    opacity: .9;
+  }
+}
+.section-container {
+  background-color: #fe667f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-section {
+  width: 70%;
+  font-family: 'Montserrat', 'san-serif';
+  font-weight: bold;
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.subtitle-section {
+  font-size: 2rem;
+  padding-top: 10px;
+}
